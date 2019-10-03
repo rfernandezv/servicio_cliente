@@ -1,0 +1,8 @@
+---
+applications:
+- name: servicio
+  path: target/servicio-clientes-0.0.1-SNAPSHOT.jar
+  memory: 800M
+  instances: 1
+  no-route: true    
+  health-check-type: process  
