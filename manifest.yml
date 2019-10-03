@@ -4,4 +4,4 @@ applications:
   path: /home/travis/build/rfernandezv/servicio_cliente/target/servicio-clientes-0.0.1-SNAPSHOT.jar
   memory: 800M
   instances: 1
-  no-route: true
+  random-route: true
