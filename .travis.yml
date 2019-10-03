@@ -1,8 +1,10 @@
 ---
 language: java
 sudo: false
+before_install:
+  - chmod +x mvnw
 script: mvn clean verify
-script: ./mvnw install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 
 deploy:
    provider: cloudfoundry
