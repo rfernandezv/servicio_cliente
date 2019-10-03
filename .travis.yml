@@ -13,5 +13,5 @@ deploy:
    username: richar.fernandez@unmsm.edu.pe
    password: ric.fevil.Pivotal.123
    api: https://api.run.pivotal.io
-   organization: rfernandezv
+   organization: rfernandezvilchez
    space: development
